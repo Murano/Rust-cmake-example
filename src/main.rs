@@ -1,5 +1,4 @@
 
-#[link(name = "foo")]
 extern { fn c_debug(val: i32); }
 
 fn main() {
