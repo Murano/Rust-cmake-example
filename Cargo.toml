@@ -1,0 +1,9 @@
+[package]
+name = "cmake_tut"
+version = "0.1.0"
+authors = ["timur"]
+
+[dependencies]
+
+[build-dependencies]
+cmake = "0.1.29"

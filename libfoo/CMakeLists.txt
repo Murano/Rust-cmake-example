@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(libfoo_project)
+add_library(foo STATIC foo.c)
+install(TARGETS foo DESTINATION lib)
+install(FILES foo.h DESTINATION include)
